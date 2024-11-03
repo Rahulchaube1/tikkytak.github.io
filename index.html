@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Rahul toe</h1>
+        <div class="mode-switch">
+            <button id="toggle-mode">Switch to Dark Mode</button>
+        </div>
+        <div class="game-mode">
+            <button id="play-with-friends">Play with Friends</button>
+            <button id="play-with-computer">Play with Computer</button>
+        </div>
+        <div class="scoreboard">
+            <h2>Score</h2>
+            <p>X Wins: <span id="x-score">0</span></p>
+            <p>O Wins: <span id="o-score">0</span></p>
+        </div>
+        <div class="board" id="board"></div>
+        <div class="status" id="status"></div>
+        <button id="reset">Reset</button>
+        <div class="congratulation" id="congratulation">
+            <img id="win-image" src="" alt="Winner" />
+            <p id="win-text"></p>
+        </div>
+        <div class="draw-message" id="draw-message">
+            <img id="draw-image" src="https://media.tenor.com/0bv3A7v7lDcAAAAi/music-banana.gif" alt="Draw" />
+            <p>Game ended in a draw!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
